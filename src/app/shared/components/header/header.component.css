@@ -1,0 +1,23 @@
+nav{
+  background: linear-gradient(to right, rgb(118, 178, 246), rgb(10, 6, 90));
+  color: white;
+  .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      width: 20%;
+      margin: 0;
+      li{
+        cursor: pointer;
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
